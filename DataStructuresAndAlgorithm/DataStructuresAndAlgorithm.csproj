@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,11 +45,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryTrees\BinaryTree.cs" />
+    <Compile Include="BinaryTrees\BinaryTreeCreator.cs" />
+    <Compile Include="BinaryTrees\BinaryTreeHelper.cs" />
+    <Compile Include="BinaryTrees\BinaryTreeNode.cs" />
+    <Compile Include="BinaryTrees\BinaryTreePrinter.cs" />
+    <Compile Include="BinaryTrees\InOrderTraversal.cs" />
+    <Compile Include="BinaryTrees\Node.cs" />
+    <Compile Include="BinaryTrees\NodeList.cs" />
+    <Compile Include="BinaryTrees\PostOrderTraversal.cs" />
+    <Compile Include="BinaryTrees\PreOrderTraversal.cs" />
+    <Compile Include="BinaryTrees\TwoBinaryTreesAreIdentical.cs" />
+    <Compile Include="Arrays\ArrayHelpers.cs" />
+    <Compile Include="Arrays\BinarySearch.cs" />
+    <Compile Include="Arrays\BuySellMaxProfit.cs" />
+    <Compile Include="Arrays\CommonElementsInThreeSortedArray.cs" />
+    <Compile Include="Arrays\FirstAndLast.cs" />
+    <Compile Include="Arrays\MaximumSlidingWindow.cs" />
+    <Compile Include="Arrays\MergeIntervals.cs" />
+    <Compile Include="Arrays\MoveZeroesToLeft.cs" />
+    <Compile Include="Arrays\QuickSort.cs" />
+    <Compile Include="Arrays\RotateArray.cs" />
+    <Compile Include="Arrays\SearchInSortedRotatedArray.cs" />
+    <Compile Include="Arrays\SumOfTwoValues.cs" />
+    <Compile Include="Helpers\PrintHelpers.cs" />
+    <Compile Include="LinkedLists\CustomLinkedList.cs" />
+    <Compile Include="LinkedLists\IntersectionPointOfTwoLists.cs" />
+    <Compile Include="LinkedLists\LinkedListHelper.cs" />
+    <Compile Include="LinkedLists\MergeTwoSortedLinkedList.cs" />
+    <Compile Include="LinkedLists\NFromLastNode.cs" />
+    <Compile Include="LinkedLists\RemoveDuplicates.cs" />
+    <Compile Include="LinkedLists\RemoveNodeWithGivenKey.cs" />
+    <Compile Include="LinkedLists\ReverseLinkedList.cs" />
+    <Compile Include="LinkedLists\RotateLinkedList.cs" />
+    <Compile Include="LinkedLists\SwapNnodeWithHead.cs" />
+    <Compile Include="MathAndStats\AllSumsCombination.cs" />
+    <Compile Include="MathAndStats\MathAndSumHelpers.cs" />
+    <Compile Include="Matrix\MakeColumnAndRowZeros.cs" />
+    <Compile Include="Matrix\MatrixHelpers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
