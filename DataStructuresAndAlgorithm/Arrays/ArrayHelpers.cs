@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using DataStructuresAndAlgorithm.Arrays;
 using DataStructuresAndAlgorithm.Helpers;
 
 namespace DataStructuresAndAlgorithm.Arrays

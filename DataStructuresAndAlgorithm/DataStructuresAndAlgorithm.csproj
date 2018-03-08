@@ -83,6 +83,17 @@
     <Compile Include="MathAndStats\MathAndSumHelpers.cs" />
     <Compile Include="Matrix\MakeColumnAndRowZeros.cs" />
     <Compile Include="Matrix\MatrixHelpers.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\Bishop.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\IBishop.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\IPhoneNumberFinder.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\IRook.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\King.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\Knight.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\Pawn.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\PhoneChessBase.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\Queen.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\Rook.cs" />
+    <Compile Include="Matrix\PhonePadToChessMoves\StateHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

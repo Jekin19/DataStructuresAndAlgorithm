@@ -11,19 +11,19 @@ namespace DataStructuresAndAlgorithm
         {
 
             //Arrays
-            ArrayHelpers.ArrayProblems();
+            //ArrayHelpers.ArrayProblems();
 
-            //Linked List
-            LinkedListHelper.LinkedListProblems();
+            ////Linked List
+            //LinkedListHelper.LinkedListProblems();
 
-            // Binary Tree
-            BinaryTreeHelper.BinaryTreeProblems();
+            //// Binary Tree
+            //BinaryTreeHelper.BinaryTreeProblems();
 
             // Matrix
             DataStructuresAndAlgorithm.Matrix.MatrixHelpers.MatrixProblems();
 
             // Math And Stats
-            DataStructuresAndAlgorithm.MathAndStats.MathAndStatsHelpers.MathAndStatsProblems();
+           // DataStructuresAndAlgorithm.MathAndStats.MathAndStatsHelpers.MathAndStatsProblems();
 
             Console.ReadKey();
         }
